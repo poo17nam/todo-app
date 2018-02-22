@@ -25,6 +25,19 @@ module.exports = {
   },
   // add your custom rules here
   rules: {
+    // Disable space after function name
+    'space-before-function-paren': 'off',
+
+    'comma-dangle': 'off',
+
+    'no-undef': 'off',
+
+    'semi': 'off',
+
+    'max-len': 'off',
+
+    'indent': 'off',
+
     // don't require .vue extension when importing
     'import/extensions': ['error', 'always', {
       js: 'never',
